@@ -1,4 +1,4 @@
-# 12. OOP Basics (Object-Oriented Programming)
+# 1. OOP Basics (Object-Oriented Programming)
 
 Object-Oriented Programming organizes code using **classes and objects**.  
 It helps structure large programs, improve reusability, and model real-world entities.
