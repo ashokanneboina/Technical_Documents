@@ -19,7 +19,7 @@ When I lose track of time while working on something, enjoy solving the problems
 * Less sleep = shorter life.
 
 
-## **Question 5: Advice from the Video (Short)**
+## **Question 5: Advice**
 
 * Sleep and wake at the same time daily.
 * Keep the room cool (18°C).
