@@ -258,6 +258,10 @@ print(encoded)
 decoded = base64.b64decode(encoded)
 print(decoded)
 ```
+
+
+All these processes — ASCII encoding, UTF encoding (UTF-8/16/32), and Base64 conversion — are handled at the Presentation Layer (Layer 6) of the OSI model, because this layer is responsible for data encoding, decoding, and format translation.
+
 ---
 
 ##  Summary
