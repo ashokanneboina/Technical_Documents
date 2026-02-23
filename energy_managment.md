@@ -8,7 +8,7 @@ I feel stressed when I lack sleep , I have too many tasks to complete in very le
 
 ## **Question 3: How do you know you’re in the Excitement quadrant?**
 When I lose track of time while working on something, enjoy solving the problems, and feeling confident then I am sure that I am in Excitement state.
-## **Question 4: Key Points (Short)**
+## **Question 4: Paraphrase the Sleep is your Superpower video in your own words in brief.**
 
 * Sleep is a biological necessity.
 * Sleep supports learning and memory.
