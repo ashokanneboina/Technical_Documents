@@ -25,47 +25,7 @@ Text → Numbers → Bytes → Binary
 ```
 
 ---
-
-## 2. Binary Representation
-
-Binary shows the actual stored bits.
-
-```python
-print(bin(65))
-```
-
-Output:
-
-```
-0b1000001
-```
-
-This is how data physically exists in memory.
-
----
-
-## 3. Hex Representation
-
-Bytes are often displayed in **hexadecimal** because binary is long.
-
-Example:
-
-```python
-print(hex(65))
-```
-
-Output:
-
-```
-0X41
-```
-
-Hex is just a readable form of binary.
-
----
-
-
-## 4. ASCII (American Standard Code for Information Interchange)
+## 2. ASCII (American Standard Code for Information Interchange)
 
 ASCII was one of the first character encoding systems.
 
@@ -99,6 +59,47 @@ print(chr(65))    # number → character
 ASCII worked well for English but failed for other languages and emojis.
 
 ---
+
+## 3. Binary Representation
+
+Binary shows the actual stored bits.
+
+```python
+print(bin(65))
+```
+
+Output:
+
+```
+0b1000001
+```
+
+This is how data physically exists in memory.
+
+---
+
+## 4. Hex Representation
+
+Bytes are often displayed in **hexadecimal** because binary is long.
+
+Example:
+
+```python
+print(hex(65))
+```
+
+Output:
+
+```
+0X41
+```
+
+Hex is just a readable form of binary.
+
+---
+
+
+
 
 ## 5. Unicode — Universal Character System
 
