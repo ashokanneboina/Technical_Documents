@@ -25,8 +25,48 @@ Text → Numbers → Bytes → Binary
 ```
 
 ---
+## 2. Hex Representation
 
-## 2. ASCII (American Standard Code for Information Interchange)
+Bytes are often displayed in **hexadecimal** because binary is long.
+
+Example:
+
+```python
+data = "A".encode("utf-8")
+print(data.hex())
+```
+
+Output:
+
+```
+41
+```
+
+Hex is just a readable form of binary.
+
+---
+## 3. Binary Representation
+
+Binary shows the actual stored bits.
+
+```python
+data = "A".encode("utf-8")
+
+for byte in data:
+    print(format(byte, "08b"))
+```
+
+Output:
+
+```
+01000001
+```
+
+This is how data physically exists in memory.
+
+---
+
+## 4. ASCII (American Standard Code for Information Interchange)
 
 ASCII was one of the first character encoding systems.
 
@@ -61,7 +101,7 @@ ASCII worked well for English but failed for other languages and emojis.
 
 ---
 
-## 3. Unicode — Universal Character System
+## 5. Unicode — Universal Character System
 
 To support all languages, Unicode was created.
 
@@ -96,7 +136,7 @@ print(f"U+{ord('A'):04X}")
 
 ---
 
-## 4. Why Unicode Needs UTF Encodings
+## 6. Why Unicode Needs UTF Encodings
 
 Unicode gives numbers, but computers store **bytes**.
 
@@ -106,7 +146,7 @@ These rules are called **UTF (Unicode Transformation Format)**.
 
 ---
 
-## 5. UTF-8 Encoding
+## 7. UTF-8 Encoding
 
 UTF-8 is the most widely used encoding today (used by websites, APIs, databases).
 
@@ -143,7 +183,7 @@ UTF-8 became popular because:
 
 ---
 
-## 6. UTF-16 Encoding
+## 8. UTF-16 Encoding
 
 UTF-16 stores characters using **16-bit units (2 bytes)**.
 
@@ -163,7 +203,7 @@ UTF-16 is used internally by some systems and programming environments.
 
 ---
 
-## 7. UTF-32 Encoding
+## 9. UTF-32 Encoding
 
 UTF-32 uses a fixed size:
 
@@ -188,47 +228,7 @@ print("A ".encode("utf-32"))
 
 ---
 
-## 8. Hex Representation
 
-Bytes are often displayed in **hexadecimal** because binary is long.
-
-Example:
-
-```python
-data = "A".encode("utf-8")
-print(data.hex())
-```
-
-Output:
-
-```
-41
-```
-
-Hex is just a readable form of binary.
-
----
-
-## 9. Binary Representation
-
-Binary shows the actual stored bits.
-
-```python
-data = "A".encode("utf-8")
-
-for byte in data:
-    print(format(byte, "08b"))
-```
-
-Output:
-
-```
-01000001
-```
-
-This is how data physically exists in memory.
-
----
 
 ## 10. Base64 Encoding
 
