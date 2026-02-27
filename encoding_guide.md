@@ -25,46 +25,45 @@ Text → Numbers → Bytes → Binary
 ```
 
 ---
-## 2. Hex Representation
+
+## 2. Binary Representation
+
+Binary shows the actual stored bits.
+
+```python
+print(bin(65))
+```
+
+Output:
+
+```
+0b1000001
+```
+
+This is how data physically exists in memory.
+
+---
+
+## 3. Hex Representation
 
 Bytes are often displayed in **hexadecimal** because binary is long.
 
 Example:
 
 ```python
-data = "A".encode("utf-8")
-print(data.hex())
+print(hex(65))
 ```
 
 Output:
 
 ```
-41
+0X41
 ```
 
 Hex is just a readable form of binary.
 
 ---
-## 3. Binary Representation
 
-Binary shows the actual stored bits.
-
-```python
-data = "A".encode("utf-8")
-
-for byte in data:
-    print(format(byte, "08b"))
-```
-
-Output:
-
-```
-01000001
-```
-
-This is how data physically exists in memory.
-
----
 
 ## 4. ASCII (American Standard Code for Information Interchange)
 
